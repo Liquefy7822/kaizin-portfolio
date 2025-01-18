@@ -1,3 +1,4 @@
+// page.tsx
 import Link from "next/link";
 import type { Metadata } from "next";
 import { projects } from "./project-data";
@@ -15,7 +16,7 @@ export default function Projects() {
         {projects.map((project, index) => (
           <Link
             key={index}
-            href={`/projects/${project.url}`} // Use the relative internal path here
+            href={`/projects/${project.url}`} // Correct internal path for dynamic routes
             className="flex flex-col space-y-1 mb-5 transition-opacity duration-200 hover:opacity-80"
           >
             <div className="w-full flex flex-col sm:flex-row justify-between items-start sm:items-center space-y-1 sm:space-y-0 sm:space-x-2">
