@@ -10,7 +10,7 @@ export const projects: Project[] = [
     title: "SIT-SST DISCOVERY Week",
     year: 2024,
     description: "3 Day camp at SIT",
-    url: "sit-sst", // Internal path as a route
+    url: "sst-sit", // Internal path as a route
   },
   {
     title: "OpenDeepLearning",
