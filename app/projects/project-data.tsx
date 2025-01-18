@@ -7,10 +7,10 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    title: "Mithril AI",
+    title: "SIT-SST DISCOVERY Week",
     year: 2024,
-    description: "Open science AI research lab",
-    url: "mithril-ai", // Internal path as a route
+    description: "3 Day camp at SIT",
+    url: "sit-sst", // Internal path as a route
   },
   {
     title: "OpenDeepLearning",
