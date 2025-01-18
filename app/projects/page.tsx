@@ -16,7 +16,7 @@ export default function Projects() {
         {projects.map((project, index) => (
           <Link
             key={index}
-            href={`/projects/${project.url}`} // Correct internal path for dynamic routes
+            href={`/projects/projects-info/${project.url}`} // Now it points to 'projects-info' folder
             className="flex flex-col space-y-1 mb-5 transition-opacity duration-200 hover:opacity-80"
           >
             <div className="w-full flex flex-col sm:flex-row justify-between items-start sm:items-center space-y-1 sm:space-y-0 sm:space-x-2">
@@ -31,4 +31,5 @@ export default function Projects() {
     </section>
   );
 }
+
 
